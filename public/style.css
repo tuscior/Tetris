@@ -1,0 +1,7 @@
+@font-face {
+	font-family: Gamefont;
+	src: url('./prstart.ttf') format('truetype');
+}
+#div {
+	font-family: Gamefont;
+}
