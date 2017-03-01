@@ -153,7 +153,7 @@ Square.prototype.move = function(time){
     Game.square.s3.y += VARS.scale;
     Game.square.s4.y += VARS.scale;
   }
-  else if(keys.rotate && time - VARS.lastTimeF >= 3000/VARS.fps){
+  else if(keys.rotate && time - VARS.lastTimeF >= 4000/VARS.fps){
     switch(Game.square.shape){
       case "O":
       return true;
